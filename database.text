@@ -1,0 +1,11 @@
+sample=# SELECT employee.first_name, employee.last_name, companies.name FROM user
+s employee INNER JOIN companies ON employee.company_id = companies.id ORDER BY em
+ployee.id;
+ first_name | last_name |  name
+------------+-----------+---------
+ Taro       | Yamada    | Orange
+ Jiro       | Suzuki    | Orange
+ Saburo     | Ishida    | TopSoft
+ Shiro      | Tanaka    | Orange
+ Rokuro     | Kondo     | TopSoft
+(5 行)
